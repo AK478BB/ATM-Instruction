@@ -1,5 +1,8 @@
 # 大气层教程
 
+# 手把手教你在Hekate删除主题和关闭插件启动
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%9C%A8Hekate%E5%88%A0%E9%99%A4%E4%B8%BB%E9%A2%98%E5%92%8C%E5%85%B3%E9%97%AD%E6%8F%92%E4%BB%B6%E5%90%AF%E5%8A%A8.jpg?raw=true" align="center" width="80%" />
+
 # 手把手教你管理大气层tesla和ovl插件
 <img src="https://codeberg.org/AK478BB/ATM-Instruction/raw/branch/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%AE%A1%E7%90%86%E5%A4%A7%E6%B0%94%E5%B1%82tesla%E5%92%8Covl%E6%8F%92%E4%BB%B6.jpg?raw=true" align="center" width="80%" />
 

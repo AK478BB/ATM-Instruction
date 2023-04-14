@@ -1,5 +1,10 @@
 # 大气层教程
 
+# 手把手教你提取Switch离线升级包（上篇+下篇）
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E7%A6%BB%E7%BA%BF%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8A%E7%AF%87.jpg?raw=true" align="center" width="80%" />
+
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E7%A6%BB%E7%BA%BF%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8B%E7%AF%87.jpg?raw=true" align="center" width="80%" />
+
 # 手把手教你在Hekate删除主题和关闭插件启动
 <img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%9C%A8Hekate%E5%88%A0%E9%99%A4%E4%B8%BB%E9%A2%98%E5%92%8C%E5%85%B3%E9%97%AD%E6%8F%92%E4%BB%B6%E5%90%AF%E5%8A%A8.jpg?raw=true" align="center" width="80%" />
 

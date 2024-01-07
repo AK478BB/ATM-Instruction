@@ -1,4 +1,8 @@
 # 大气层教程
+
+# 手把手教你区分Switch的型号和破解方式20240107
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8C%BA%E5%88%86Switch%E7%9A%84%E5%9E%8B%E5%8F%B7%E5%92%8C%E7%A0%B4%E8%A7%A3%E6%96%B9%E5%BC%8F20240107.jpg?raw=true" align="center" width="80%" />
+
 # 手把手教你提取Switch正版游戏分享NSP
 <img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E6%AD%A3%E7%89%88%E6%B8%B8%E6%88%8F%E5%88%86%E4%BA%ABNSP.jpg?raw=true" align="center" width="80%" />
 

@@ -1,0 +1,64 @@
+【AK杂谈】Tesla菜单的同名平替插件-ultrahand终极手
+感谢steven_young从github上分享的，今天AK下载和试用，虽然功能多，但考虑到系统稳定和操作习惯，暂不会把它平替到AK大气层整合包或原版Tesla插件包中。
+https://www.tekqart.com/thread-360748-1-1.html
+
+特斯拉核心组件，也叫特斯拉基础包，下面三个组件构成
+（1）nx-ovlloader--v1.0.7
+Tesla启动器
+https://github.com/WerWolv/nx-ovlloader/releases
+（2）ovlmenu--v1.2.3
+Tesla菜单
+https://github.com/WerWolv/Tesla-Menu/releases
+（3）ovlSysmodules--v1.3.1
+Tesla系统管理
+https://github.com/WerWolv/ovl-sysmodules/releases
+
+
+第二个ovlmenu，是SD：switch/.overlays/ovlmenu.ovl这个文件
+现在有个同名平替插件，ultrahand终极手
+https://github.com/ppkantorski/Ultrahand-Overlay/releases
+下最新的Ultrahand Overlay 1.4.8，最高支持17.0.0系统
+ovlmenu.ovl替换
+lang.zip是多国语言包，解压缩以后复制lang文件夹到SD：config/ultrahand/
+主要菜单设置可以实现多国语言，但翻译不一定是地道的。
+
+Tesla菜单的按键可自定义config/tesla/config.ini的组合按键key_combo=
+AK大气层是原版Teslamenu，设定是L+方向键下，把config.ini删掉就变成默认L+方向键下+RS。
+当ultrahand的ovlmenu.ovl第一次运行会默认读取config/tesla/config.ini的设置，并添加到它的config设置中
+SD：config/ultrahand/config.ini，但是第二次运行再不会关注原版Tesla的按键设置，只认它的config设置。
+
+SD：config/ultrahand/config.ini
+[ultrahand]
+default_lang = zh-cn 默认菜单语言，简体中文
+default_menu = overlays 默认菜单，就是ovl插件菜单
+last_menu = packages 最后一次菜单packages，是因为那里有关机和重启的选项
+in_overlay = false
+key_combo = L+DDOWN Ultrahand的快捷键
+hide_user_guide = false 隐藏用户指南
+clean_version_labels = true 隐藏ovl插件版本号后面的标签
+hide_overlay_versions = false 隐藏ovl插件的版本号
+hide_package_versions = true 隐藏package的版本号
+datetime_format = '%a %T' 日期时间显示的格式
+hide_clock = false 隐藏时间
+hide_battery = true 隐藏电池信息
+hide_pcb_temp = true 隐藏芯片温度
+hide_soc_temp = true 隐藏主板温度
+
+虽然是同文件名的平替，但ultrahand会在SD：switch/.packages/
+生成package.ini，config.ini，可以实现自定义的扩展命令，有提供教程
+https://github.com/ppkantorski/Ultrahand-Overlay/wiki
+
+
+Ultrahand Overlay Wiki
+Ultrahand Overlay is your go-to tool for enhanced file and directory management on your SD card, designed to provide you with greater control over your configurations and data. This wiki is here to help you get started and make the most out of Ultrahand Overlay.
+
+Wiki Pages
+Explore the wealth of information available in this wiki:
+Command Reference: A comprehensive list of commands supported by Ultrahand Overlay, each with clear instructions on how to use them effectively.
+Package Reference: Learn how to configure packages, customize settings, and make the most of Ultrahand Overlay's powerful features.
+
+Getting Started
+If you're new to Ultrahand Overlay, here's how to get started:
+For help with understanding the available commands and how to use them, please refer to Command Reference.
+For help with formatting your own custom Ultrahand packages, please refer to Package Configurations.
+For more complex Ultrahand package examples and implementations, please check out Examples.

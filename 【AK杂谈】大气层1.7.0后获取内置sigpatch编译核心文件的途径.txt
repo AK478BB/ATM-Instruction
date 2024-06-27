@@ -1,0 +1,31 @@
+【AK杂谈】大气层1.7.0后获取内置sigpatch编译核心文件的途径
+
+之前有篇杂谈【AK杂谈】大气层1.7.0后sigpatch签名补丁的三种解决办法
+https://www.tekqart.com/thread-382773-1-1.html
+今天聊聊如何获取上面第三种方式的途径
+因为大气层作者不支持玩破解游戏，所以大气层1.7.0内核以后开始去掉了fusee引导读取atmosphere/kip_patches的功能，但是读取atmosphere/exefs_patches的功能不可能去掉，因为这会导致自定bootlogo，无线蓝牙手柄插件ips补丁等失效，这些并不涉玩破解游戏。
+
+所以大气层1.7.0之后，就有各路大神们开始编译大气层的核心文件，大气层核心文件其实只有三个
+1、bootloader/payloads/fusee.bin
+fusee.bin等于大气层引导文件，其实是个bootloader，但是并不能直接支持mariko（续航，Lite和Oled），需要hekate来作为bootloader，通过它去加载fusee.bin进而加载下面两个atmosphere的核心文件，所以fusee.bin一般就放在上面这个SD卡的路径。
+2、atmosphere/package3
+3、atmosphere/stratosphere.romfs
+这三个文件就是大气层核心文件。
+其它如daybreak.nro离线升级刷机，reboot_payload.bin重启（一般用hekate.bin改名），haze.nro数据线读SD卡数据，hbmenu.nro，hbl.nsp等都是原版大气层的配套文件，包括atmosphere/config/配置文件等，并不需要为了sigpatch而去修改它们。
+
+大佬们编译了大气层核心文件，内置了sigpatch，其大气层1.7.0后sigpatch主要受影响的是fs patch和loader patch，不过loader patch的开关其实是在package3文件里，所以大佬们编译的时候往往都移除，而fs patch则需要编译的时候内置，或者通过恢复fusee允许其重新加载atmosphere/kip_patches的fs patch和loader patch。
+但是对于hekate+atmosphere的fss0引导方式，fs patch和loader patch都在bootloader/patches.ini文本中，所以不受影响，但是切记fss0引导，除了要有patches.ini，还要在hekate_ipl.ini的引导设置中对于cfw的加载，确保有kip1patch=nosigchk，否则依然不能玩破解游戏。
+如果大佬仅仅移除loader patch或恢复加载kip_patches，那同样需要在SD卡相应sigpatch路径或patches.ini中要有相应的文件在才可以正常玩破解游戏，否则已安装好的破解游戏运行时会提示文件损坏等。
+
+以下几位大佬的杰作，排序不分先后，都能替换着用，能不能玩破解游戏，请小伙伴们实测，AK不予评价。
+替换文件三个：fusee.bin，package3，stratosphere.romfs
+1、论坛大佬lsp199308
+https://www.tekqart.com/thread-382514-1-1.html
+2、论坛大佬gzk_47
+https://www.tekqart.com/thread-391068-1-1.html
+3、外网大佬borntohonk
+https://github.com/borntohonk/Atmosphere/releases
+4、外网大佬rashevskyv
+https://github.com/rashevskyv/kefir/releases
+外网大佬的发布可以从大气层作者的forks中找到
+https://github.com/Atmosphere-NX/Atmosphere/forks

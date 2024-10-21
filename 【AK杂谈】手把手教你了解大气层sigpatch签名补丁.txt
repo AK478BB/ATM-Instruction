@@ -1,0 +1,26 @@
+【AK杂谈】手把手教你了解大气层sigpatch签名补丁
+一、基础
+大气层三件套是Switch系统破解的必备核心组件，就是atmosphere，hekate和sigpatch。Sigpatch又名大气层签名补丁，是大气层核心的外挂补丁，允许你玩破解游戏和NSP自制前端工具。原来是4个补丁，分别是ES Patch，FS Patch，Loader Patch和nfim ctest，自17.0.0系统开始新增nim patch。所以现在的大气层sigpatch总共是5个补丁组成。
+ES Patch，FS Patch和Loader Patch这三个补丁是游戏相关签名补丁，和安装运行NSP/XCI/NSZ/XCZ的破解游戏，运行NSP自制前端工具有关。
+nfim ctest，nim patch这两个补丁是和在90dns/隐藏序列号情况下破解系统连wifi有关，如果是已被BAN的主机或者只是飞行模式玩单机游戏可以忽略这两个补丁。
+
+二、各补丁
+（1）ES Patch在SD卡的atmosphere/exefs_patches/es_patches，对应Switch系统，每次系统大版本升级会需要新增1个IPS。
+建议保留旧的ES Patch，如果系统降级后需要玩破解游戏，就会需要对应旧的ES Patch，ES补丁允许你从Eshop商店dump出来的原版NSP（含压缩格式NSZ）游戏文件安装和正常运行。
+（2）FS Patch在SD卡的atmosphere/kip_patches/fs_patches，对应Switch系统，每次系统大版本升级会需要新增2个IPS（exfat和fat32）。
+同上，建议保留旧的FS Patch，如果系统降级后需要玩破解游戏，就会需要对应旧的FS Patch，FS补丁允许你使用非原版NSP文件（NSP，NSZ，XCI，XCZ）的安装和正常运行，包括NRO插件转NSP格式，整合版XCI，NSP等格式。
+（3）Loader Patch在SD卡的atmosphere/kip_patches/loader_patches，对应大气层package3，每次大气层版本升级需要新增1个IPS。
+但旧的Loader Patch无用，可以删除，大气层向下兼容，Switch系统降级不需要换大气层文件，所以Loader patch不需要换。
+（4）nfim ctest在SD卡的atmosphere/exefs_patches/nfim_ctest，对应Switch系统，每次系统大版本升级会需要新增1个IPS。
+建议保留旧的nfim ctest。因为SW系统规定联网首先要向任天堂服务器去认证，而nfim ctest可以允许你在90dns/隐藏序号情况下，阻止访问任天堂服务器，可以正常连wifi到互联网，运行一些非官方的网络软件，比如wiliwili，youtube等。
+（5）nim patch在SD卡的atmosphere/exefs_patches/nim-prodinfo-blank-fix/，对应Switch系统，每次系统大版本升级会需要新增1个IPS。
+建议保留旧的nim patch。因为从Switch系统17.0.0开始，大气层自带的隐藏序列号或者使用删除序列号将失效，会出现00025的报错，因90dns/hosts的权限高于序列号，所以即使17.0.0以后也不会报错，除非使用代理服务器而导致90dns失效，这个时候就需要nim patch隐藏或删除序列号的功能继续生效。
+
+三、fss0引导和fusee引导的区别
+大气层系统的引导分fss0引导（真实破解系统、虚拟破解、真实正版系统）和fusee引导（大气层自动识别）。
+两种引导方式在实际使用中无任何区别，但是大气层自动识别无法精准设置所需引导方式。
+只要atmosphere更新支持最新的Switch系统，fusee引导就可以支持进入新系统。
+想要fss0引导支持最新的Switch系统，必须atmosphere+hekate同时支持最新的系统。
+fss0引导的FS Patch和Loader Patch在SD卡的bootloader/patches.ini，不同于fusee引导。
+fss0引导的ES Patch，nfim ctest和nim patch，与fusee引导一样，没有区别。
+此外fss0引导必须在bootloader/hekate_ipl.ini中的真实(破解)系统和虚拟系统的设置中增加kip1patch=nosigchk

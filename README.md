@@ -1,5 +1,8 @@
 # 大气层教程
 
+# 手把手教你使用linkalho离线绑定任天堂账号
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BD%BF%E7%94%A8linkalho%E7%A6%BB%E7%BA%BF%E7%BB%91%E5%AE%9A%E4%BB%BB%E5%A4%A9%E5%A0%82%E8%B4%A6%E5%8F%B7.jpg?raw=true" align="center" width="80%" />
+
 # 手把手教你区分Switch的型号和破解方式20240107
 <img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8C%BA%E5%88%86Switch%E7%9A%84%E5%9E%8B%E5%8F%B7%E5%92%8C%E7%A0%B4%E8%A7%A3%E6%96%B9%E5%BC%8F20240107.jpg?raw=true" align="center" width="80%" />
 

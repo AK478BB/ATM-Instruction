@@ -1,5 +1,8 @@
 # 大气层教程
 
+# 手把手教你多版本的DBI工具共存和使用
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84DBI%E5%B7%A5%E5%85%B7%E5%85%B1%E5%AD%98%E5%92%8C%E4%BD%BF%E7%94%A8.jpg?raw=true" align="center" width="80%" />
+
 # 手把手教你使用linkalho离线绑定任天堂账号
 <img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BD%BF%E7%94%A8linkalho%E7%A6%BB%E7%BA%BF%E7%BB%91%E5%AE%9A%E4%BB%BB%E5%A4%A9%E5%A0%82%E8%B4%A6%E5%8F%B7.jpg?raw=true" align="center" width="80%" />
 

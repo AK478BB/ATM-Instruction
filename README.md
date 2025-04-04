@@ -1,33 +1,39 @@
+# 【AK杂谈】Switch2性能怎么样？参数配置和游戏介绍
+
+出处 https://www.gamersky.com/handbook/202504/1906691.shtml
+
+任天堂Switch2作为备受玩家期待的新一代游戏主机，其性能和硬件配置一直是大家关注的焦点。那么，Switch2的性能到底如何？它的硬件配置又有哪些亮点呢？接下来，就让我们一起详细了解一下。
+
+一、Switch2  根据任天堂官方公布的信息，Switch2的售价为449美元。此外，Switch2在日本地区的售价为49980日元（约合人民币2428元），多语言版本售价为69980日元（约合人民币3401元）。这个价格相比初代Switch有了明显的提升，但考虑到Switch2在硬件配置、功能设计等方面的显著升级，这一价格仍然具有一定的竞争力。
+
+# AK杂谈：
+
+Switch2目前看起来是两个区：日区、全球区，日区逆向锁区，想必是以日区作为基本盘和测试区，某些游戏日区先独占，然后推广全球。至于价格，日区的游戏和系统没有语言负担，更倾向于优化，价格卖的便宜点也很正常，兴许会有拿类似国补的政策？
+
+二、Switch2硬件升级  Switch2在硬件方面进行了全面升级。它搭载了定制的NVIDIA T239芯片，支持光线追踪和DLSS 3.5等先进技术。屏幕方面，Switch2配备了7.9英寸1080P显示屏，支持HDR和120FPS。此外，还支持microSD Express储存卡，加载游戏时间变快。这些升级使得Switch2在图形处理能力、画面显示效果以及流畅度等方面都有了显著的提升。
+
+# AK杂谈：
+
+1、牺牲了续航（只有2小时了，稍逊于switch非续航）和掌机尺寸（向win掌机迈进），但是提升了硬件，增加了hdr等新科技，只能使用express的sd卡，应该是以第一方高清移植+更好的移植第三方游戏作为优势，向拥有优化系统的PC掌机比如steamdeck展开第三方大作游戏的市场竞争，尽管steamdeck作为游戏掌机，除了跑一部分第三方3A大作的优势，整体上始终比不上switch一代的综合优势。
+
+2、steam正版游戏价格确实比switch香，玩破解版游戏也有GE兼容层的支持，但是steamos的官方兼容层和GE兼容层始终无法实现所有的PC大作在steamdeck上玩，如果是一些配置要求不高的大大小小的游戏，反而是switch1在游戏体验上更佳。
+
+3、Switch2的破解？大概率2年内不可能，Switch1的破解，除了非续航早期那RCM漏洞软破，后续那个包括OLED在内的硬破芯片，其核心硬件漏洞基于TX团队发现的CPU脉冲漏洞，是Boot0的加载阶段，至今的Switch1破解还停留在2019年TX团队的研究成果+成熟的v1v2和lite排线焊接，只是OLED机型为了被隐藏的emmc的C点才有了依次是围脖、字库和打孔三种进阶的方法。Switch系统层面的软破至今无下文，但是不排除PC端的Switch2的模拟器先行。
+
+三、Switch2游戏阵容  除了硬件升级外，Switch2的游戏阵容也十分强大。任天堂在直面会上公布了多款第一方和第三方游戏。例如，《塞尔达无双 封印战记》、《星之卡比天空骑士》、《咚奇刚 BANANZA》等。此外，Switch2还支持Switch游戏软件运行，玩家可以继续在新主机上畅玩现有的Switch游戏。这些丰富的游戏阵容，无疑增加了Switch2的性价比。
+
+# AK杂谈：
+
+1、游戏向下兼容是意料之中，加上switch的nintendo账号是可以转区的，如果转到日区也能在日区switch2下正版游戏。但是可能会参考ps4/ps5的高清模式，分成两份卖钱。Switch2实体卡应该有防呆设置，比如顶部有些凹凸等，阻止插入Switch1主机的游戏卡槽，但是不妨碍主机读取Switch1的实体卡。
+
+2、数字版虚拟卡，这个switch1和2都会有，可能是2025年4月的Switch1的系统更新20.0系统开始。数字版游戏绑定账号，所以可以同一账号的第二台主机分享，也可以家庭会员间分享14天。这第二台主机分享需要面连，防止网络二手数字版交易和账号共享的泛滥。因为这个随时随地玩等于主号功能，不需要玩的时候时刻联网还有踢的情况。
+
+3、Switch2推出的game-key card就是游戏实体卡，只是保留证书等加密信息，删除本体补丁等内容，改成商城的下载链接，而且和原来实体卡一样不绑定账号，随便二手买卖。NBA等EA游戏为了节省成本，也是本体8g+32g补丁，道理一样，game-key card也许是为了节省存储芯片成本，直接用64M，128M的二手回收芯片也不是没有可能。   
+
 # 大气层教程
-
-# 手把手教你多版本的DBI工具共存和使用
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%A4%9A%E7%89%88%E6%9C%AC%E7%9A%84DBI%E5%B7%A5%E5%85%B7%E5%85%B1%E5%AD%98%E5%92%8C%E4%BD%BF%E7%94%A8.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你使用linkalho离线绑定任天堂账号
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BD%BF%E7%94%A8linkalho%E7%A6%BB%E7%BA%BF%E7%BB%91%E5%AE%9A%E4%BB%BB%E5%A4%A9%E5%A0%82%E8%B4%A6%E5%8F%B7.jpg?raw=true" align="center" width="80%" />
 
 # 手把手教你区分Switch的型号和破解方式20240107
 <img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8C%BA%E5%88%86Switch%E7%9A%84%E5%9E%8B%E5%8F%B7%E5%92%8C%E7%A0%B4%E8%A7%A3%E6%96%B9%E5%BC%8F20240107.jpg?raw=true" align="center" width="80%" />
 
-# 手把手教你提取Switch正版游戏分享NSP
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E6%AD%A3%E7%89%88%E6%B8%B8%E6%88%8F%E5%88%86%E4%BA%ABNSP.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你自制大气层sigpatch签名补丁
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%87%AA%E5%88%B6%E5%A4%A7%E6%B0%94%E5%B1%82sigpatch%E7%AD%BE%E5%90%8D%E8%A1%A5%E4%B8%81.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你提取Switch离线升级包（上篇+下篇）
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E7%A6%BB%E7%BA%BF%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8A%E7%AF%87.jpg?raw=true" align="center" width="80%" />
-
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8F%90%E5%8F%96Switch%E7%A6%BB%E7%BA%BF%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8B%E7%AF%87.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你在Hekate删除主题和关闭插件启动
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%9C%A8Hekate%E5%88%A0%E9%99%A4%E4%B8%BB%E9%A2%98%E5%92%8C%E5%85%B3%E9%97%AD%E6%8F%92%E4%BB%B6%E5%90%AF%E5%8A%A8.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你管理大气层tesla和ovl插件
-<img src="https://codeberg.org/AK478BB/ATM-Instruction/raw/branch/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%AE%A1%E7%90%86%E5%A4%A7%E6%B0%94%E5%B1%82tesla%E5%92%8Covl%E6%8F%92%E4%BB%B6.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你把NRO插件转成NSP前端
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8A%8ANRO%E6%8F%92%E4%BB%B6%E8%BD%AC%E6%88%90NSP%E5%89%8D%E7%AB%AF.jpg?raw=true" align="center" width="80%" />
-
-# 手把手教你修改相册NRO插件的图标和信息
-<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BF%AE%E6%94%B9%E7%9B%B8%E5%86%8CNRO%E6%8F%92%E4%BB%B6%E7%9A%84%E5%9B%BE%E6%A0%87%E5%92%8C%E4%BF%A1%E6%81%AF.jpg?raw=true" align="center" width="80%" />
+# 手把手教你使用linkalho离线绑定任天堂账号
+<img src="https://github.com/AK478BB/ATM-Instruction/blob/main/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BD%BF%E7%94%A8linkalho%E7%A6%BB%E7%BA%BF%E7%BB%91%E5%AE%9A%E4%BB%BB%E5%A4%A9%E5%A0%82%E8%B4%A6%E5%8F%B7.jpg?raw=true" align="center" width="80%" />
